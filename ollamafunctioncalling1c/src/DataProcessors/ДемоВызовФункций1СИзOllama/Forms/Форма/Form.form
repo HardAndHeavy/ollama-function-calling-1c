@@ -279,7 +279,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>APIKey</name>
+        <name>КлючAPI</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -287,10 +287,10 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>APIKey</segments>
+          <segments>КлючAPI</segments>
         </dataPath>
         <extendedTooltip>
-          <name>APIKeyРасширеннаяПодсказка</name>
+          <name>КлючAPIРасширеннаяПодсказка</name>
           <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -305,7 +305,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>APIKeyКонтекстноеМеню</name>
+          <name>КлючAPIКонтекстноеМеню</name>
           <id>25</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -622,10 +622,10 @@
     </settingsSavedData>
   </attributes>
   <attributes>
-    <name>APIKey</name>
+    <name>КлючAPI</name>
     <title>
       <key>ru</key>
-      <value>API key</value>
+      <value>Ключ API</value>
     </title>
     <id>6</id>
     <valueType>
@@ -642,7 +642,7 @@
     </edit>
     <fillChecking>ShowError</fillChecking>
     <settingsSavedData xsi:type="form:DataPath">
-      <segments>APIKey</segments>
+      <segments>КлючAPI</segments>
     </settingsSavedData>
   </attributes>
   <attributes>
