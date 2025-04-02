@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9f03be8-c916-4eac-9de2-44bf87acdef4">
+  <producedTypes>
+    <objectType typeId="81153977-5a37-450e-8977-5826daa3f11f" valueTypeId="e5f6f97b-63d9-40d5-a3f7-6bccb2a9ac2f"/>
+    <managerType typeId="eafcdfa0-2186-423c-9491-1421b0b221c6" valueTypeId="8a113ae7-3dac-42bc-b86a-a8982e2bdae9"/>
+  </producedTypes>
+  <name>ДемоВызовФункций1СИзOllama</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо. Вызов функций 1С из Ollama</value>
+  </synonym>
+  <defaultForm>DataProcessor.ДемоВызовФункций1СИзOllama.Form.Форма</defaultForm>
+  <forms uuid="4a55fbb5-3856-43b2-8d65-17876bd60d40">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8a6e95b9-1561-4ddd-b5d3-1f34427998ee">
+    <name>ДемоВызовФункций1СИзOllama</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо. Вызов функций 1С из Ollama</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

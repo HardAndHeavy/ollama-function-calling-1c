@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8018c79c-bafc-4db5-a3a8-d75894a59ed9">
+  <name>ВызовФункций1СИзOllama</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вызов функций 1С из Ollama</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

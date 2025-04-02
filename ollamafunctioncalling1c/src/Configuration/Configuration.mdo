@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd66b895-88dd-405c-a8f1-3d8ce5130c32">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b7da17d5-cb3e-436a-917a-85cc7837e48f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2c78a4fc-9678-4f88-957b-453f74df474e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="cd14512d-a9d6-4511-ab58-1c54513d66b5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="069f7738-3b83-4512-ac87-b21f6a34d707"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="202613f4-b707-4baf-b929-2c1a17bef2b5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="afd78aff-4cd5-4790-85a1-c8ad9efeef54"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a72203e1-530d-4877-8567-5550e0f516af"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="d6357717-94da-4b9f-bfd9-b4f1341820b5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВызовФункций1СИзOllama</subsystems>
+  <commonModules>CommonModule.ВызовФункций1СИзOllama</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <httpServices>HTTPService.FunctionCalling</httpServices>
+  <dataProcessors>DataProcessor.ДемоВызовФункций1СИзOllama</dataProcessors>
+</mdclass:Configuration>

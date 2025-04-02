@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee3f12c9-95b8-4af3-8ba0-2e0e3980191b">
+  <name>ВызовФункций1СИзOllama</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вызов функций 1С из Ollama</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ДемоВызовФункций1СИзOllama</content>
+  <content>CommonModule.ВызовФункций1СИзOllama</content>
+  <content>HTTPService.FunctionCalling</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+</mdclass:Subsystem>

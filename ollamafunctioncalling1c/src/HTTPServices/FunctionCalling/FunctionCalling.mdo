@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2561a61-1b3b-4aa6-9b46-0868cc591795">
+  <name>FunctionCalling</name>
+  <synonym>
+    <key>ru</key>
+    <value>Function calling</value>
+  </synonym>
+  <rootURL>function-calling</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="a8c20e79-ae19-487b-9de2-b872ba8d2430">
+    <name>ЛюбойURL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Любой URL</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="689b8946-9c33-4a42-bc42-331240568a5b">
+      <name>МетодGET</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод GET</value>
+      </synonym>
+      <handler>ЛюбойURLМетодGET</handler>
+    </methods>
+    <methods uuid="0c5e0fd7-d3bb-4a41-a884-3bbe7754cf78">
+      <name>МетодPOST</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЛюбойURLМетодPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
